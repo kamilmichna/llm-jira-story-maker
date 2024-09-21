@@ -9,9 +9,11 @@ Scope of this project is to make agentic-based workflow that will:
 
 # Example conversation
 
-`
+
 Write about task that you want to make:
+
 Your answer: Please create python script that will process excel sheet and insert data into database
+
 Could you please provide more details on the following aspects?
 
 1. What specific data do you want to process from the Excel sheet?
@@ -19,16 +21,18 @@ Could you please provide more details on the following aspects?
 3. What is the structure of the database table where the data will be inserted?
 4. Are there any specific libraries or frameworks you would like to use for processing the Excel sheet or interacting with the database?
 5. Should the script handle any errors or logging, and if so, how?
-   Your answer: I want to extract all fields, ingest it into PostgreSQL, data should be inserted into table my_data, columns in database should be created based on excel data. I don`t have any preferences regarding used libraries. Script should handle errors and logging (simple logging to cli). File will be saved as my_data.csv
+   
+Your answer: I want to extract all fields, ingest it into PostgreSQL, data should be inserted into table my_data, columns in database should be created based on excel data. I don`t have any preferences regarding used libraries. Script should handle errors and logging (simple logging to cli). File will be saved as my_data.csv
    To summarize your requirements:
 
-6. **Data Source**: Extract all fields from an Excel sheet (saved as `my_data.csv`).
-7. **Database**: Insert the data into a PostgreSQL database.
-8. **Table**: The data will be inserted into the table named `my_data`, and the columns in the database will be created based on the Excel data.
-9. **Libraries**: No specific preferences for libraries to be used.
-10. **Error Handling & Logging**: The script should handle errors and implement simple logging to the CLI.
+7. **Data Source**: Extract all fields from an Excel sheet (saved as `my_data.csv`).
+8. **Database**: Insert the data into a PostgreSQL database.
+9. **Table**: The data will be inserted into the table named `my_data`, and the columns in the database will be created based on the Excel data.
+10. **Libraries**: No specific preferences for libraries to be used.
+11. **Error Handling & Logging**: The script should handle errors and implement simple logging to the CLI.
 
 Is there anything else you would like to add or modify?
+
 Your answer: That looks good
 
     This is your user story:
