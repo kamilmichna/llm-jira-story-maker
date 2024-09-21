@@ -143,6 +143,7 @@ Technical Notes:
 
 Following these steps will ensure that the Python script successfully processes the data from the Excel sheet (CSV) and inserts it into the PostgreSQL database while handling errors appropriately.
 **\_\_\_\_**
-This is estimation: 8
+
+This is story points estimation: 8
 
 `
