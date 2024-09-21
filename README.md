@@ -7,6 +7,14 @@ Scope of this project is to make agentic-based workflow that will:
 -   create User Story and technical notes about implementations
 -   create brief estimation of the story using planning poker
 
+# How to use
+clone repo
+run `npm i`
+replace your api key in main.ts with your key from OpenAI API
+run `npx tsx main.ts` to run the code
+
+
+
 # Example conversation
 
 
